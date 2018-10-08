@@ -33,7 +33,7 @@
 
     <LinearLayout
         android:id="@+id/button_linear_view"
-        android:layout_width="323dp"
+        android:layout_width="337dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
