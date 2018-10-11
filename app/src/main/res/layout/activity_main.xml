@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-
+    <!--android:layout_marginTop="80dp"-->
 
     <RelativeLayout
         android:id="@+id/top_relative_view"
@@ -31,12 +31,11 @@
 
     <LinearLayout
         android:id="@+id/button_linear_view"
-        android:layout_width="wrap_content"
+        android:layout_width="290dp"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginRight="32dp"
-        android:layout_marginLeft="32dp"
+        android:layout_marginTop="194dp"
         android:orientation="horizontal"
         tools:ignore="RtlCompat">
 
@@ -45,63 +44,63 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:tag="0"
-            android:textSize="20sp"
-            android:onClick="pressedBoardButton"/>
+            android:tag="1"
+            android:text="0"
+            android:textSize="20sp"/>
 
         <Button
             android:id="@+id/button2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:tag="1"
-            android:textSize="20sp"
-            android:onClick="pressedBoardButton"/>
+            android:tag="2"
+            android:text="0"
+            android:textSize="20sp"/>
 
         <Button
             android:id="@+id/button3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:tag="2"
-            android:textSize="20sp"
-            android:onClick="pressedBoardButton"/>
+            android:tag="3"
+            android:text="0"
+            android:textSize="20sp"/>
 
         <Button
             android:id="@+id/button4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:tag="3"
-            android:textSize="20sp"
-            android:onClick="pressedBoardButton"/>
+            android:tag="4"
+            android:text="1"
+            android:textSize="20sp"/>
 
         <Button
             android:id="@+id/button5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:tag="4"
-            android:textSize="20sp"
-            android:onClick="pressedBoardButton"/>
+            android:tag="5"
+            android:text="0"
+            android:textSize="20sp"/>
 
         <Button
             android:id="@+id/button6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:tag="5"
-            android:textSize="20sp"
-            android:onClick="pressedBoardButton"/>
+            android:tag="6"
+            android:text="0"
+            android:textSize="20sp"/>
 
         <Button
             android:id="@+id/button7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:tag="6"
-            android:textSize="20sp"
-            android:onClick="pressedBoardButton"/>
+            android:tag="7"
+            android:text="0"
+            android:textSize="20sp"/>
     </LinearLayout>
 
     <Button
@@ -112,8 +111,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="155dp"
         android:text="@string/new_game"
-        android:onClick="pressedNewGame"
-        android:textSize="20sp"/>
+        android:onClick="pressedNewGame"/>
 
 
 </RelativeLayout>
